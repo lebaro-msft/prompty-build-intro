@@ -1,0 +1,18 @@
+{
+    "prompty.connections": [
+        {
+            "name": "default",
+            "type": "azure_openai",
+            "api_version": "2024-02-01",
+            "azure_endpoint": "https://aoai-6ppvyiwywtps6.openai.azure.com/",
+            "azure_deployment": "gpt-4"
+        },
+        {
+            "name": "gpt-3.5-turbo",
+            "type": "openai",
+            "api_key": "",
+            "organization": ""
+        }
+    ],
+    "prompty.currentConnection": "default"
+}
